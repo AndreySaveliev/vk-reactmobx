@@ -1,0 +1,26 @@
+.wrapper {
+  /* height: 150vh; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.list {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto auto;
+  margin-bottom: -250px;
+}
+
+.photo__img {
+  max-width: fit-content;
+  height: 450px;
+  width: 450px;
+}
+
+.threshold {
+  width: 100%;
+  height: 500px;
+  background-color: red;
+  opacity: 0.5;
+}
