@@ -4,10 +4,9 @@ import { PhotoList } from "../../mobx/store";
 
 function Sort({ store }: { store: PhotoList }) {
   const handleChangeSort = (
-    e: React.SyntheticEvent | null,
+    _e: React.SyntheticEvent | null,
     newValue: string | null
   ) => {
-    console.log(newValue);
     if (newValue == "old") {
       store.sortFromOldToNew();
     } else {
